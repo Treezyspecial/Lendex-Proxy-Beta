@@ -1,0 +1,25 @@
+{
+  "name": "things-proxy",
+  "version": "1.0.0",
+  "description": "Things Proxy, made by Things Network",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": ["static", "src", "ssl", ".gitignore"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Things-Network/Things-Proxy"
+  },
+  "keywords": ["unoffical", "ultraviolet", "unblock", "bypass-filter", "Things-Network"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.2.2",
+    "serve-static": "^1.15.0"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=18.0.0"
+  }
+}
