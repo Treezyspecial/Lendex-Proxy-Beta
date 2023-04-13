@@ -6,15 +6,19 @@
   </head>
   <body>
 	  <div class="container">
-   <form id="uv-form" class="flex-center">
-	   <h2>Lendex Pr*xy</h2>
-      <input
-        id="uv-search-engine"
-        value="https://www.google.com/search?q=%s"
-        type="hidden"
-      />
-      <input id="uv-address" type="text" placeholder="Search the web freely" />
-    </form>
+   <div class="form">  
+      <form id="uv-form" class="flex-center">
+        <input
+          id="uv-search-engine"
+          value="https://www.google.com/search?q=%s"
+          type="hidden"     
+        />  
+        <div id="search-container">      
+          <input id="uv-address" type="text" placeholder="Search the web" />       
+          <button type="submit"><i class="fa fa-search"></i></button>   
+        </div>  
+      </form>
+    </div>  
 		  <div>
 			  <footer>
       <a
