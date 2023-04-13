@@ -6,10 +6,13 @@
   </head>
   <body>
 	  <div class="container">
-    <form>
-	<h2>Lendex Pr*xy</h2>
-	<label for="name">URL:</label>
-	<input type="text" id="name" name="URL" required>
+   <form id="uv-form" class="flex-center">
+      <input
+        id="uv-search-engine"
+        value="https://www.google.com/search?q=%s"
+        type="hidden"
+      />
+      <input id="uv-address" type="text" placeholder="Search the web freely" />
     </form>
 		  <div>
   </body>
