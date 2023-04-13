@@ -73,4 +73,25 @@ footer a {
   text-decoration: none;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0080ff;
+  height: 60px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 
