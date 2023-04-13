@@ -90,7 +90,8 @@ nav a {
   text-transform: uppercase;
 }
 
-nav a:hover {
+footer a:hover {
+  color: #555;
   text-decoration: underline;
 }
 
