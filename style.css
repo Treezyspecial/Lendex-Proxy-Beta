@@ -82,63 +82,77 @@ nav {
   padding: 10px 20px;
 }
 
-nav .menu-icon {
-  display: none;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  margin-right: 10px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 5px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-nav a:hover {
+.line {
+  width: 25px;
+  height: 3px;
   background-color: #fff;
-  color: #333;
+  margin: 5px;
 }
 
-@media only screen and (max-width: 768px) {
-  nav .menu-icon {
-    display: block;
-  }
-  nav ul {
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  background-color: #333;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  transition: height 0.5s ease-in-out;
+}
+
+.nav-links.show {
+  height: 200px;
+}
+
+.nav-links li {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger {
     display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    text-align: center;
-    padding: 10px 0;
   }
-  nav ul li {
-    margin-right: 0;
+  
+  .nav-links {
+    position: static;
+    height: auto;
+    flex-direction: row;
+    background-color: transparent;
+    width: auto;
   }
-  nav ul a {
-    display: block;
-    padding: 10px;
-    border-radius: 0;
-  }
-  nav ul a:hover {
-    background-color: #fff;
-    color: #333;
-  }
-  nav ul.show {
-    display: flex;
+  
+  .nav-links li {
+    margin: 0 15px;
   }
 }
