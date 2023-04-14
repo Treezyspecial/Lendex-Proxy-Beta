@@ -24,12 +24,12 @@ body{
 }
 
 form {
-			background-color: #fff;
-			border-radius: 10px;
-			padding: 20px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-			width: 60%;
-		
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 60%;
+}
 
 h2 {
 	color: #0080ff;
