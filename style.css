@@ -14,13 +14,13 @@ body{
     background-color: #f0f0f0;
 }
 
-.container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
-
+container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+   
+   }
 form {
 	background-color: #fff;
 	border-radius: 10px;
