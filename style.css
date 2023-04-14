@@ -276,3 +276,24 @@ input[type="submit"]:focus {
   font-size: 14px;
   margin-top: 5px;
 }
+
+
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+article {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  line-height: 1.5;
+  margin: 0;
+}
