@@ -7,9 +7,7 @@
 body{
     background-image: url('https://cdn.discordapp.com/attachments/1096117445590265878/1096490809781657772/R_1.gif');
     background-size: cover;
-    
-    
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     padding:0;
     margin:0;
@@ -242,4 +240,39 @@ footer a {
   .hamburger-menu {
     display: flex;
   }
+}
+
+/* Additional styling for the text */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border: 1px solid #0080ff;
+  outline: none;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
 }
