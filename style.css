@@ -4,8 +4,16 @@
 	box-sizing: border-box;
 }
 
-body {
-	background-color: #f0f0f0;
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1096117445590265878/1096490809781657772/R_1.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+    background-color: #f0f0f0;
 }
 
 .container {
